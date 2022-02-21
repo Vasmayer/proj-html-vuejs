@@ -1,23 +1,15 @@
 <template>
     <div>
-        <div class="jumbo container-fluid">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-8 p-5 d-flex justify-content-center align-items-center">
-                    <div>
-                        <h3>EVERY MOMENT COUNTS</h3>
-                        <YellowLine class="my-3"/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi commodi voluptate sed asperiores ut dolor cupiditate magnam dolorum</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nulla voluptatibus sunt ipsum quidem eos. Qui tempora architecto aperiam, sit nihil, hic quas inventore distinctio assumenda enim vel necessitatibus eum.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dolores.</p>
-                        <Button content="our mission" type="normal"/>
-                    </div>
+                    <Moments />
                 </div>
                 <div class="col-12 col-md-4 bg-home-content text-light p-5 fs-13 d-flex justify-content-center align-items-center">
-                    <div>
+                    <div class="info">
                         <Icon class-icon="far fa-heart" number="2032" text-info="Volunteers wordwide"/>
                         <Icon class-icon="fas fa-globe" number="132" text-info="Active projects"/>
                         <Icon class-icon="fas fa-dollar-sign" number="3.8M" text-info="Donated"/>
-
                     </div>
                 </div>
             </div>
@@ -130,6 +122,7 @@ import YellowLine from './Line.vue'
 import Button from './Button.vue' 
 import Icon from './Icons.vue' 
 import Value from './Value.vue' 
+import Moments from './Moments.vue' 
 
 
 export default {
@@ -140,6 +133,7 @@ export default {
         Button,
         Icon,
         Value,
+        Moments,
     }
 }
 </script>
