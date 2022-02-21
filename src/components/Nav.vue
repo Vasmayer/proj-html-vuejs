@@ -22,7 +22,7 @@
               <p>As long as poverty injustice &amp; inequality persist, none of us can truly rest</p>
               <div class="text-center">
                 <Button content="our mission" type="outlined-white"/>
-                <Button content="donate now" type="outlined-yellow"/>
+                <Button content="donate now" type="outlined-yellow" class="ms-3"/>
               </div>
             </div>
         </div>
@@ -71,7 +71,7 @@ export default {
     }
     .active
     {
-        color: $menu-active;
+        color: $main-yellow;
     }
     .navbar-brand
     {

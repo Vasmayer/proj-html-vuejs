@@ -20,18 +20,24 @@ button
   
     padding: 4px 15px;
     font-size: 10px;
-    margin: 0 5px;
 }
 .normal
 {
     color: $menu-color;
-    background-color:$button;
-    border:1px solid $button;
+    background-color:$main-yellow;
+    border:1px solid $main-yellow;
+}
+.normal-red
+{
+    color: $menu-color;
+    background-color:$main-red;
+    border:1px solid $main-red;
+    width: 100%;
 }
 .outlined-yellow
 {
-    color: $button;
-     border:1px solid $button;
+     color: $main-yellow;
+     border:1px solid $main-yellow;
      background-color: transparent;
 }
 .outlined-white
