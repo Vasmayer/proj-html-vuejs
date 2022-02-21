@@ -6,13 +6,17 @@
     <main>
       <Main />
     </main>
-    <footer></footer>
+    <footer>
+      <Footer />
+    </footer>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue' 
 import Main from './components/Main.vue' 
+import Footer from './components/Footer.vue' 
+
 import 'bootstrap';
 
 export default {
@@ -20,6 +24,7 @@ export default {
   components: {
    Header,
    Main,
+   Footer,
   },
   data()
   {

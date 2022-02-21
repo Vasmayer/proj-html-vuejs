@@ -122,9 +122,7 @@
         <div class="logo d-flex justify-content-center align-items-center p-3">
              <img :src="require('../assets/images/avada-charity-mobile-logo-retina.png')" alt="logo avada" class="img-fluid">
         </div>
-        <div>
-            <Footer />
-        </div>
+        
     </div>
 </template>
 <script>
@@ -132,7 +130,7 @@ import YellowLine from './Line.vue'
 import Button from './Button.vue' 
 import Icon from './Icons.vue' 
 import Value from './Value.vue' 
-import Footer from './Footer.vue' 
+
 
 export default {
     name:'Main',
@@ -142,7 +140,6 @@ export default {
         Button,
         Icon,
         Value,
-        Footer
     }
 }
 </script>
