@@ -1,5 +1,5 @@
 <template>
-     <div class="col-12 col-md-3 text-center">
+     <div class="col-12 col-md-3 text-center hover">
         <i class="fa-2x c-yellow" :class="textIcon"></i>
         <div class="pb-3">{{intestation}}</div>
         <div class="fs-13 pb-3">
@@ -33,5 +33,12 @@ export default {
 .fs-13
 {
     font-size: 13px;
+}
+.hover{
+    padding-bottom: 30px;
+}
+.hover:hover
+{
+    border-bottom: 2px solid $main-yellow;
 }
 </style>

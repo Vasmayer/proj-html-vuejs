@@ -1,5 +1,5 @@
 <template>
-     <nav class="navbar navbar-expand-lg">
+     <nav class="navbar navbar-expand-lg navbar-dark bg-trasparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img :src="require('../../assets/images/avada-charity-logo.png')" alt="Logo Avada"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -7,7 +7,7 @@
                 </button>
                 <div class="collapse navbar-collapse">
                     <div class="navbar-nav flex-grow-1 justify-content-end align-items-center">
-                        <a class="nav-link" :class="i===0 ? 'active': ''" v-for="(link,i) in navbar" :key="i" href="#">{{link}}</a>
+                        <a class="nav-link" :class="i===0 ? 'active-link': ''" v-for="(link,i) in navbar" :key="i" href="#">{{link}}</a>
                         <a class="nav-link">
                             <Button content="donate" type="normal"/>
                         </a>
@@ -42,9 +42,9 @@ export default {
         margin: 10px 15px;
         cursor: pointer;
     }
-    .active
+    .active-link
     {
-        color: $main-yellow;
+        color: $main-yellow; 
     }
     .navbar-brand
     {

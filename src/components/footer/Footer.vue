@@ -41,5 +41,8 @@ export default {
         align-items: center;
         margin: 0 10px;
     }
+    i:hover{
+        color:$main-red;
+    }
 }
 </style>

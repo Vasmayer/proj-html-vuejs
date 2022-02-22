@@ -64,6 +64,7 @@ export default {
     {
         background-color: $main-red;
         padding: 30px 0;
+        cursor: pointer;
     }
     .logo
     {
