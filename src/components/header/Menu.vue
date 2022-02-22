@@ -1,7 +1,7 @@
 <template>
      <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img :src="require('../assets/images/avada-charity-logo.png')" alt="Logo Avada"></a>
+                <a class="navbar-brand" href="#"><img :src="require('../../assets/images/avada-charity-logo.png')" alt="Logo Avada"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -18,7 +18,7 @@
 </template>
 <script>
 
-import Button from './Button.vue' 
+import Button from './../Button.vue' 
 
 export default {
     name:'Menu',
@@ -31,7 +31,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import '../assets/scss/_vars.scss';
+@import '../../assets/scss/_vars.scss';
 .navbar
 {
     .nav-link

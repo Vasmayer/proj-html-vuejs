@@ -13,12 +13,12 @@
 </template>
 <script>
 export default {
-    
+    name:'Footer',
 }
 </script>
 <style lang="scss" scoped>
 
-@import '../assets/scss/_vars.scss'; 
+@import '../../assets/scss/_vars.scss'; 
 
 .footer
 {

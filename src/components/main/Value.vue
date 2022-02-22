@@ -11,7 +11,7 @@
 
 <script>
 
-import Button from './Button.vue' 
+import Button from './../Button.vue' 
 
 export default {
     name:'Values',
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/scss/_vars.scss'; 
+@import '../../assets/scss/_vars.scss'; 
 
 .c-yellow{
     color: $main-yellow;

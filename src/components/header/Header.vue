@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
 .jumbo
 {
-        background-image: url("../assets/images/home-page-slider.jpg");
+        background-image: url("../../assets/images/home-page-slider.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;

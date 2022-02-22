@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import YellowLine from './Line.vue' 
-import Button from './Button.vue' 
+import YellowLine from './../Line.vue' 
+import Button from './../Button.vue' 
 
 export default {
     name:'Moments',
